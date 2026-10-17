@@ -1,0 +1,22 @@
+/* Giao diện: Ngọc lục — chỉnh các biến này để đổi màu/phông toàn bộ bài giảng */
+:root{
+  --bg:#f2f8f5;
+  --panel:#ffffff;
+  --ink:#0f172a;
+  --mute:#5b6678;
+  --line:#e3e7ef;
+  --acc:#047857;
+  --acc-ink:#ffffff;
+  --acc2:#e2f5ec;
+  --hero-a:#047857;
+  --hero-b:#115e59;
+  --hero-ink:#ffffff;
+  --ok:#15803d;
+  --ok-bg:#e8f6ec;
+  --bad:#b91c1c;
+  --bad-bg:#fdecec;
+  --radius:16px;
+  --shadow:0 1px 2px rgba(15,23,42,.06),0 10px 28px rgba(15,23,42,.07);
+  --font:"Inter","Segoe UI",system-ui,-apple-system,"Roboto","Helvetica Neue",Arial,sans-serif;
+  --font-head:"Inter","Segoe UI",system-ui,-apple-system,"Roboto","Helvetica Neue",Arial,sans-serif;
+}
