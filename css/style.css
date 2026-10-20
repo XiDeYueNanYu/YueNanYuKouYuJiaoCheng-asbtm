@@ -583,7 +583,7 @@ body.focus main{max-width:calc(var(--mainw)*var(--s)*1.2)}
 .vr-hb.on{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 10%,transparent)}
 .vr-raw>summary{cursor:pointer;font-weight:600}
 .vr-pre{max-height:calc(360px*var(--s));overflow:auto;background:var(--bg);border:1px solid var(--line);border-radius:calc(10px*var(--s));padding:calc(10px*var(--s));font-size:calc(12.5px*var(--s));white-space:pre-wrap;word-break:break-word}
-@media(max-width:640px){.vr-fl{grid-template-columns:1fr}.vr-ml{flex-basis:100%}.vr-kvr{flex-direction:column;gap:calc(2px*var(--s))}.vr-kvr em{flex-basis:auto}.vr-orow{flex-direction:column;gap:calc(2px*var(--s))}}
+@media(max-width:640px){.vr-fl{grid-template-columns:1fr}.vr-mrow{flex-wrap:wrap;gap:calc(4px*var(--s)) calc(10px*var(--s))}.vr-ml{flex:1 1 100%;padding-top:0}.vr-sq{flex:1 1 100%;min-width:0}.vr-kvr{flex-direction:column;gap:calc(2px*var(--s))}.vr-kvr em{flex-basis:auto}.vr-orow{flex-direction:column;gap:calc(2px*var(--s))}}
 @media print{.vr-top,.vr-panel,.vr-pick,.vr-status,.vr-tools,.vr-acts,.vr-pl audio,.vr-dl{display:none!important}.vr-ex{break-inside:avoid}.vr-card{box-shadow:none}}
 
 /* bài viết của học sinh (Kỹ năng viết) */
