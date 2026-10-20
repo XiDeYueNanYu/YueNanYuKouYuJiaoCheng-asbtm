@@ -317,7 +317,7 @@ body.focus main{max-width:calc(var(--mainw)*var(--s)*1.2)}
 .lr-i.rec{border-color:var(--bad);box-shadow:0 0 0 4px color-mix(in srgb,var(--bad) 22%,transparent)}
 .lr-h{display:flex;align-items:flex-start;gap:calc(12px*var(--s));flex-wrap:wrap}
 .lr-n{display:inline-grid;place-items:center;flex:none;min-width:1.9em;height:1.9em;padding:0 .4em;border-radius:calc(999px*var(--s));background:var(--acc);color:var(--acc-ink);font-weight:700;font-size:calc(15px*var(--s))}
-.lr-t{flex:1;min-width:0;margin:0;font-size:1.18em;line-height:1.6;overflow-wrap:anywhere}
+.lr-t{white-space:pre-line;flex:1;min-width:0;margin:0;font-size:1.18em;line-height:1.6;overflow-wrap:anywhere}
 .lr-rec{display:flex;align-items:center;gap:calc(10px*var(--s));flex-wrap:wrap;margin-top:calc(12px*var(--s))}
 .lr-rb,.lr-pb,.lr-db{font:inherit;font-weight:700;font-size:calc(15px*var(--s));border-radius:calc(999px*var(--s));cursor:pointer;padding:calc(8px*var(--s)) calc(18px*var(--s))}
 .lr-rb{display:inline-flex;align-items:center;gap:calc(8px*var(--s));border:0;background:var(--bad);color:#fff}
@@ -540,7 +540,7 @@ body.focus main{max-width:calc(var(--mainw)*var(--s)*1.2)}
 @keyframes vr-flash{0%,60%{background:color-mix(in srgb,var(--acc) 22%,transparent)}100%{background:transparent}}
 .vr-ih{display:flex;gap:calc(10px*var(--s));align-items:flex-start}
 .vr-no{flex:none;min-width:2em;height:2em;display:inline-grid;place-items:center;border-radius:calc(999px*var(--s));background:var(--bg);border:1px solid var(--line);font-weight:700;font-size:calc(13px*var(--s))}
-.vr-prompt{flex:1;line-height:1.55;overflow-wrap:anywhere;font-size:1.02em}
+.vr-prompt{white-space:pre-line;flex:1;line-height:1.55;overflow-wrap:anywhere;font-size:1.02em}
 .vr-badge{flex:none;padding:calc(2px*var(--s)) calc(10px*var(--s));border-radius:calc(999px*var(--s));font-size:calc(12.5px*var(--s));font-weight:700;color:#fff;background:#94a3b8}
 .st-ok .vr-badge{background:var(--vr-g)}.st-bad .vr-badge{background:var(--vr-r)}.st-rec .vr-badge{background:var(--vr-b)}.st-neu .vr-badge{background:#a78bfa}
 .vr-meta{margin:calc(6px*var(--s)) 0 0 2.6em;color:var(--mute);font-size:calc(12.5px*var(--s))}
